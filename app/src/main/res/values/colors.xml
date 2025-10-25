@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="my_primary">#5E35B1</color>
+    <color name="my_secondary">#673AB7</color>
+    <color name="green">#4CAF50</color>
+    <color name="red">#F44336</color>
+    <color name="gray_dark">#757575</color>
+    <color name="unread_notification_bg">#E3F2FD</color>
+    <!-- Couleur principale -->
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="purple_200">#BB86FC</color>
+
+    <!-- Autres couleurs -->
+    <color name="background_grey">#F5F5F5</color>
+
+    <!-- Couleur du badge de notification -->
+    <color name="badge_red">#FF0000</color>
+
+    <color name="gray_600">#757575</color>
+
+    <color name="gray_100">#F5F5F5</color>
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_500">#9E9E9E</color>
+    <color name="gray_800">#424242</color>
+    <color name="green_500">#4CAF50</color>
+
+    <color name="red_500">#F44336</color>
+    <color name="grey_light">#F5F5F5</color>
+    <color name="grey_dark">#757575</color>
+</resources>

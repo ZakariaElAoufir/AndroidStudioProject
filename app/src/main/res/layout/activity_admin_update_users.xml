@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Nom -->
+        <EditText
+            android:id="@+id/editNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nom"
+            android:background="@drawable/edittext_background"
+            android:padding="16dp"
+            android:textColor="#212121"
+            android:textColorHint="#757575"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Prénom -->
+        <EditText
+            android:id="@+id/editPrenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Prénom"
+            android:background="@drawable/edittext_background"
+            android:padding="16dp"
+            android:textColor="#212121"
+            android:textColorHint="#757575"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edittext_background"
+            android:padding="16dp"
+            android:textColor="#212121"
+            android:textColorHint="#757575"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Mot de passe -->
+        <EditText
+            android:id="@+id/editMotDePasse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mot de passe"
+            android:inputType="textPassword"
+            android:background="@drawable/edittext_background"
+            android:padding="16dp"
+            android:textColor="#212121"
+            android:textColorHint="#757575"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Téléphone -->
+        <EditText
+            android:id="@+id/editTelephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Téléphone"
+            android:inputType="phone"
+            android:background="@drawable/edittext_background"
+            android:padding="16dp"
+            android:textColor="#212121"
+            android:textColorHint="#757575"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Spécialité -->
+        <EditText
+            android:id="@+id/editSpecialite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Spécialité"
+            android:background="@drawable/edittext_background"
+            android:padding="16dp"
+            android:textColor="#212121"
+            android:textColorHint="#757575"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Rôle -->
+        <Spinner
+            android:id="@+id/spinnerRole"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_background"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Bouton Modifier -->
+        <Button
+            android:id="@+id/btnModifier"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Modifier"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_background"
+            android:textAllCaps="false"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+</ScrollView>
