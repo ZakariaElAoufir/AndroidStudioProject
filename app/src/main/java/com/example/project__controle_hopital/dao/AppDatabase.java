@@ -57,7 +57,7 @@ public abstract class AppDatabase extends RoomDatabase {
                                         admin.telephone = "0000000000";
                                         admin.email = "admin@hospital.com";
                                         admin.password = "admin123";
-                                        admin.role = "admin";
+                                        admin.role = "Admin";
                                         admin.antecedents = null;
                                         admin.specialite = null;
 
