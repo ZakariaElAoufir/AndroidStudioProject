@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Project__controle_Hopital</string>
+    <string-array name="roles_array">
+        <item>Admin</item>
+        <item>Medecin</item>
+        <item>Patient</item>
+    </string-array>
+    <string name="edit">Modifier</string>
+    <string name="delete">Supprimer</string>
+    <string name="back_button">Retour</string>
+    <string name="back">Retour</string>
+
+
+</resources>
